@@ -34,7 +34,7 @@ namespace avilv.Windows.Forms
             return (((extendee is Control) && !(extendee is Form)));
         }
 
-        [Description("Control's ZOrder")]
+        [Description("Controls ZOrder")]
         [DefaultValue(-1)]
         [Category("Appearance")]
         public int GetZOrder(Control c)
